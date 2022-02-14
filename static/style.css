@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #bfe2f0;
+}
+
+.navbar-brand {
+  color: #2d6e5b !important;
+}
+
+#logo {
+  width: 40px;
+}
+
+section {
+  padding: 5%;
+}
+
+#maths {
+  width: 100%;
+}
+
+#landingDiv {
+  position: relative;
+}
+
+#tutorName {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 70%;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.nameDown {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: namedown;
+  animation-name: namedown;
+  margin-top: 3%;
+}
+
+@-webkit-keyframes namedown {
+  from {
+    margin-top: 3%;
+  }
+  to {
+    margin-top: 10%;
+  }
+}
+
+@keyframes namedown {
+  from {
+    margin-top: 3%;
+  }
+  to {
+    margin-top: 10%;
+  }
+}
+
+#tutorSubject {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 70%;
+  font-size: 0.8em;
+}
+
+.subjectDown {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: subjectdown;
+  animation-name: subjectdown;
+  margin-top: 8%;
+}
+
+@-webkit-keyframes subjectdown {
+  from {
+    margin-top: 8%;
+  }
+  to {
+    margin-top: 15%;
+  }
+}
+
+@keyframes subjectdown {
+  from {
+    margin-top: 8%;
+  }
+  to {
+    margin-top: 15%;
+  }
+}
+
+#tutorImg {
+  float: right;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+#introDiv,
+#aboutDiv {
+  background-color: #bfe2f0;
+}
+
+#tutorIntro {
+  font-size: 1em;
+  font-weight: 400;
+  color: #2d6e5b !important;
+}
+
+.heading {
+  font-weight: bold;
+  text-align: center;
+  color: #2d6e5b !important;
+}
+
+#aboutTutor {
+  padding-top: 0%;
+}
+
+#contactDiv,
+#footerDiv {
+  background-color: #bfe2f0;
+}
+
+#testimonialsDiv {
+  background-color: #e1eef3;
+  color: #2d6e5b !important;
+}
+
+#copyright {
+  text-align: center;
+  color: #2d6e5b !important;
+}
+
+#footerDiv {
+  height: 40vh;
+}
+
+#submitButton {
+  background-color: #398bac !important;
+  color: white !important;
+}
+
+@media only screen and (min-width: 375px) and (orientation: portrait) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1em;
+  }
+  #aboutDiv {
+    margin-top: -5%;
+  }
+  #aboutTutor {
+    padding-top: 0%;
+  }
+}
+
+@media only screen and (min-width: 390px) and (orientation: portrait) {
+  #footerDiv {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 412px) and (orientation: portrait) {
+  #footerDiv {
+    height: 55vh;
+  }
+}
+
+@media only screen and (min-width: 540px) and (orientation: portrait) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1em;
+  }
+  #footerDiv {
+    height: 45vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .heading {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+  }
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.3em;
+  }
+  #tutorImg {
+    margin-right: 4%;
+  }
+  #footerDiv {
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 820px) and (orientation: portrait) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.4em;
+  }
+  #tutorImg {
+    margin-right: -5%;
+  }
+  #footerDiv {
+    height: 65vh;
+  }
+}
+
+@media only screen and (min-width: 912px) and (orientation: portrait) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.4em;
+  }
+  #footerDiv {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 653px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.1em;
+  }
+  #aboutDiv {
+    margin-top: -5%;
+  }
+}
+
+@media only screen and (min-width: 720px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.3em;
+  }
+  #tutorImg {
+    margin-right: 1%;
+  }
+}
+
+@media only screen and (min-width: 740px) and (orientation: landscape) {
+  #tutorImg {
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (min-width: 844px) and (orientation: landscape) {
+  .heading {
+    font-size: 1.2em;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 851px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.4em;
+  }
+  #footerDiv {
+    height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (min-width: 1368px) and (orientation: landscape) {
+  #tutorName,
+  #tutorSubject {
+    font-size: 1.7em;
+  }
+}
